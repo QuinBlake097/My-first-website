@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap');
+
+.background {
+    background-image: url(Background.png);
+    background-size: cover;
+}
+
+h1{
+    color: royalblue;
+    text-align: center;
+    background-color: rgb(255,255,255,0.3);
+    font-size: 70px;
+    font-family: 'Patua One', cursive;
+}
+
+.large {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(201, 214, 255, 0.4);
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-style: 'Courier New', Courier;
+}
+
+.menu {
+    display: flex;
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    flex: 1;
+    text-align: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    background-color: white;
+}
